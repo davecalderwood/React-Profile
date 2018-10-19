@@ -25,6 +25,7 @@ class App extends Component {
           <div className="right-menu">
           {/* Wrapping the Router Link around the className and text allows the whole box to be the button, rather than just the text in the <p>tag</p> */}
           <Link to="/">
+          {/* <img src="baseline-portrait-24px.svg" alt="Portrait"></img> */}
             <div className="navigate">
             <p><h3>Profile</h3></p>
             </div></Link>
@@ -51,18 +52,21 @@ class App extends Component {
             <a className="footer-nav" target="_blank" rel="noopener noreferrer" href="https://github.com/davecalderwood">
             <div >
               <h3>Github</h3>
+              <img src="baseline-link-24px.svg" alt="Link"></img>
             </div></a>
 
             {/* Create the Linkedin button to an external site referrencing my Linkedin profile */}
             <a  className="footer-nav2" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/david-calderwood-ba8b19172/">
             <div>
               <h3>Linkedin</h3>
+              <img src="baseline-open_in_new-24px.svg" alt="open_in_new"></img>
             </div></a>
 
             {/* The mailto: function will open up email with my address in the send line */}
             <a className="footer-nav3" href="mailto:davidhcalderwood@gmail.com">
             <div>
               <h3>Email</h3>
+              <img src="baseline-email-24px.svg" alt="email"></img>
             </div></a>
           </div>
         </div>

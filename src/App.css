@@ -79,7 +79,7 @@ p {
     flex-direction: column;
     width: 100%;
     text-align: center;
-    padding-top: 3%;
+    padding-top: 0%;
     text-decoration: none; color: black;
 }
 .footer-nav2 {
@@ -87,7 +87,7 @@ p {
     flex-direction: column;
     width: 100%;
     text-align: center;
-    padding-top: 3%;
+    padding-top: 0%;
     text-decoration: none; color: black;
 }
 .footer-nav3 {
@@ -95,7 +95,7 @@ p {
     flex-direction: column;
     width: 100%;
     text-align: center;
-    padding-top: 3%;
+    padding-top: 0%;
     text-decoration: none; color: black;
 }
 .footer-nav:hover {
