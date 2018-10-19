@@ -21,7 +21,7 @@ class Projects extends Component {
           </ol>
           <div>
             <center><h3>Skills</h3>
-            JavaScript, React, HTML, CSS, VUE
+            JavaScript, React, HTML, CSS
             </center>
           </div>
       </div>

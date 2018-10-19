@@ -131,9 +131,9 @@ p {
     width: 750px;
 }
 .name {
-    width: 50%;
-    border-radius: 25%;
-    background-color: rgb(177, 157, 157);
+    font-size: 4em;
+    font-family: cursive;
+    color: rgb(255, 253, 147);
 }
 .about-color {
     color: black;
@@ -144,3 +144,24 @@ a:visited { text-decoration: none; }
 a:hover { transform: scale(1.1) }
 a:focus { text-decoration: none; }
 a:hover, a:active { text-decoration: none; }
+
+
+/* ----------------------- Animations -------------------------- */
+
+.typewriter h1 {
+    /* /typewriter effect targets the h1 element */
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .1em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
