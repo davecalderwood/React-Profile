@@ -13,6 +13,7 @@ class App extends Component {
       <Router>
         <div className="main-app">
           <div className="main-frame">
+          <div class="box"><b></b></div>
             <div className="components">
 
               {/* Route paths */}

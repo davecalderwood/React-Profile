@@ -4,6 +4,7 @@ body {
      /* Credit for this photo goes to unsplash.com, photo by Kal Loftus */
      font-family: 'Courier New', Courier, monospace;
 
+
 }
 /* The main <div> in App.js, the rest fall into this div */
 .main-app {
@@ -15,8 +16,8 @@ body {
     background: url('https://2.bp.blogspot.com/-QCNLvg32ulU/VaOWslE-aXI/AAAAAAAAGAc/KYWYae8-hFA/s1600/background.jpg') top/cover no-repeat;
     height: 500px;
     width: 750px;
+    border: 4px solid black;
     position: relative;
-    border: 5px solid black;
 }
 /* The menu on the right responsible for rendering each page */
 .right-menu {
@@ -169,5 +170,72 @@ a:hover, a:active { text-decoration: none; }
   @keyframes typing {
     from { width: 0 }
     to { width: 100% }
+  }
+/* ----------------------- Bounce Animations -------------------------- */
+/* .main-frame {
+    margin-top: 50px;
+    border: 5px solid rgb(0, 0, 0);
+    animation: bounce 2s infinite alternate;
+    -webkit-animation: bounce 2s infinite alternate;
+  }
+  @keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-50px);
+    }
+  }
+  @-webkit-keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-50px);
+    }
+  } */
+.box {
+  margin: 0 auto;
+  position: relative;
+  box-shadow: inset 0 0 3px #000;
+  /* border-radius: 5px; */
+  /* overflow: hidden; */
+}
+.box b {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 15%;
+  background-color: #04357e;
+  box-shadow: inset -5px -5px 5px rgba(0,0,0,.9), 15px 15px 2px rgba(0,0,0,.2);
+  position: absolute;
+  -webkit-animation: moveX 3.0s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  -moz-animation: moveX 3.0s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  -o-animation: moveX 3.0s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  animation: moveX 3.0s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+}
+  @-webkit-keyframes moveX {
+    from { left: 0; } to { left: 550px; }
+  }
+  @-moz-keyframes moveX {
+    from { left: 0; } to { left: 550px; }
+  }
+  @-o-keyframes moveX {
+    from { left: 0; } to { left: 550px; }
+  }
+  @keyframes moveX {
+    from { left: 0; } to { left: 550px; }
+  }
+  @-webkit-keyframes moveY {
+    from { top: 0; } to { top: 350px; }
+  }
+  @-moz-keyframes moveY {
+    from { top: 0; } to { top: 350px; }
+  }
+  @-o-keyframes moveY {
+    from { top: 0; } to { top: 350px; }
+  }
+  @keyframes moveY {
+    from { top: 0; } to { top: 350px; }
   }
   
