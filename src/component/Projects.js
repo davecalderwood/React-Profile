@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Skills from './Skills'
 
 class Projects extends Component {
   render() {
@@ -15,19 +16,14 @@ class Projects extends Component {
           </li>
           <li>
             <h4>Personal Project</h4>
-            -- coming soon --
+            -- On Github it is called Kyle-Site --
           </li>
           <li>
             <h4>Group Project</h4>
             -- coming soon --
           </li>
         </ol>
-        <div>
-          <center>
-            <h3>Skills</h3>
-            JavaScript, React, HTML, CSS
-          </center>
-        </div>
+        <Skills />
       </div>
     );
   }

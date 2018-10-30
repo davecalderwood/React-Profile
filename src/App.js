@@ -1,19 +1,23 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import "./App.css";
 import Profile from "./component/Profile";
 import About from "./component/About";
 import Projects from "./component/Projects";
+import "./App.css";
 
 // This is the page that will render all of the others and house the routings
 class App extends Component {
+  
   render() {
     return (
+ 
       // The router wrappes around the components to house the buttons
       <Router>
         <div className="main-app">
           <div className="main-frame">
-          <div class="box"><b></b></div>
+
+          <div className="box"><b></b></div>
+
             <div className="components">
 
               {/* Route paths */}

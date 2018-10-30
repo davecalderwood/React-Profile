@@ -146,6 +146,30 @@ p {
     color: black;
     text-align: center;
 }
+.skills {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(76, 175, 158);
+    border-radius: 15px;
+    box-shadow: 0 7px #999;
+    height: 30px;
+    font-size: 1em;
+}
+.skills:hover {
+    background-color: #4068b1;
+}
+.skills:active {
+    background-color: #4068b1;
+    box-shadow: 0 5px #666;
+    transform: translateY(3px);
+}
+.child {
+    font-size: 1em;
+}
 
 a:visited { text-decoration: none; }
 a:hover { transform: scale(1.1) }
@@ -156,13 +180,13 @@ a:hover, a:active { text-decoration: none; }
 /* ----------------------- Animations -------------------------- */
 
 .typewriter h1 {
-    /* /typewriter effect targets the h1 element */
+    /* Typewriter effect targets the h1 element */
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .1em; /* Adjust as needed */
+    letter-spacing: .1em;
     animation: 
-      typing 4s steps(500, end),
+      typing 3s steps(40, end),
       blink-caret .75s step-end infinite;
   }
   
@@ -172,48 +196,29 @@ a:hover, a:active { text-decoration: none; }
     to { width: 100% }
   }
 /* ----------------------- Bounce Animations -------------------------- */
-/* .main-frame {
-    margin-top: 50px;
-    border: 5px solid rgb(0, 0, 0);
-    animation: bounce 2s infinite alternate;
-    -webkit-animation: bounce 2s infinite alternate;
-  }
-  @keyframes bounce {
-    from {
-      transform: translateY(0px);
-    }
-    to {
-      transform: translateY(-50px);
-    }
-  }
-  @-webkit-keyframes bounce {
-    from {
-      transform: translateY(0px);
-    }
-    to {
-      transform: translateY(-50px);
-    }
-  } */
+
 .box {
-  margin: 0 auto;
-  position: relative;
-  box-shadow: inset 0 0 3px #000;
-  /* border-radius: 5px; */
-  /* overflow: hidden; */
-}
+    margin: 0 auto;
+    position: relative;
+    box-shadow: inset 0 0 3px #000;
+  }
 .box b {
-  display: block;
-  width: 50px;
-  height: 50px;
-  border-radius: 15%;
-  background-color: #04357e;
-  box-shadow: inset -5px -5px 5px rgba(0,0,0,.9), 15px 15px 2px rgba(0,0,0,.2);
-  position: absolute;
-  -webkit-animation: moveX 3.0s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
-  -moz-animation: moveX 3.0s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
-  -o-animation: moveX 3.0s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
-  animation: moveX 3.0s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
-}
+    text-align: center;
+    color: white;  
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 15%;
+    background-color: #34bb2f;
+    box-shadow: inset -5px -5px 5px rgba(0,0,0,.9), 15px 15px 2px rgba(0,0,0,.2);
+    position: absolute;
+    /* Controls the speed at which the X and Y move */
+    -webkit-animation: moveX 5.2s linear 0s infinite alternate, moveY 4.4s linear 0s infinite alternate;
+    -moz-animation: moveX 5.2s linear 0s infinite alternate, moveY 4.4s linear 0s infinite alternate;
+    -o-animation: moveX 5.2s linear 0s infinite alternate, moveY 4.4s linear 0s infinite alternate;
+    animation: moveX 5.2s linear 0s infinite alternate, moveY 4.4s linear 0s infinite alternate;
+  }
+  /* Sets the pixels of how far it is allowed to move along the X and Y axis */
   @-webkit-keyframes moveX {
     from { left: 0; } to { left: 550px; }
   }
