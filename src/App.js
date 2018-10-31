@@ -17,7 +17,6 @@ class App extends Component {
           <div className="main-frame">
 
           <div className="box"><b></b></div>
-
             <div className="components">
 
               {/* Route paths */}

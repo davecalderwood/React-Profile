@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import AnimatedTypingComponent from './Typing'
 
 class Profile extends Component {
   render() {
@@ -8,15 +9,18 @@ class Profile extends Component {
       <div className="typewriter">
         <center>
           <br />
-          {/* Create a link under the photo that links out to my Facebook page */}
+          {/* Create a link in the photo that links out to my Facebook page */}
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.facebook.com/david.calderwood35"
           >
             <img className="Photo1" src="../Waterski.jpg" alt="Waterski" />
-          </a>
-          <h1 className="name">Dave Calderwood</h1>
+          </a><br/>
+          <div className="typing">
+          <AnimatedTypingComponent />
+
+          </div>
         </center>
       </div>
     );

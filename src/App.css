@@ -131,7 +131,7 @@ p {
     box-shadow: 10px 5px 5px rgb(82, 82, 82);
 }
 .Photo1:hover {
-    transform: scale(1.15)
+    transform: scale(1.1);
 }
 .Photo2 {
     height: 500px;
@@ -139,13 +139,14 @@ p {
 }
 .name {
     font-size: 4em;
-    font-family: cursive;
+    font-family: monospace;
     color: rgb(255, 253, 147);
 }
 .about-color {
     color: black;
     text-align: center;
 }
+/* On the Projects and skills page create the button to toggle skills on and off */
 .skills {
     position: absolute;
     right: 0;
@@ -180,24 +181,28 @@ a:hover, a:active { text-decoration: none; }
 
 /* ----------------------- Animations -------------------------- */
 
-.typewriter h1 {
-    /* Typewriter effect targets the h1 element */
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .1em;
-    animation: 
-      typing 3s steps(40, end),
-      blink-caret .75s step-end infinite;
+/* .typewriter h1 {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 50px;
+    font-weight: 700;
+    box-sizing: border-box;
   }
   
-  /* The typing effect */
   @keyframes typing {
-    from { width: 0 }
+    from { width: 0% }
     to { width: 100% }
+  } */
+
+  .typing {
+      font-size: 3.5em;
+      font-weight: bold;
+      color: rgb(102, 39, 39);
   }
 /* ----------------------- Bounce Animations -------------------------- */
-
 .box {
     margin: 0 auto;
     position: relative;
