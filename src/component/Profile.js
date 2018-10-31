@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import AnimatedTypingComponent from './Typing'
+import Type from './Typing'
 
 class Profile extends Component {
   render() {
@@ -18,8 +18,8 @@ class Profile extends Component {
             <img className="Photo1" src="../Waterski.jpg" alt="Waterski" />
           </a><br/>
           <div className="typing">
-          <AnimatedTypingComponent />
-
+          {/* Updated the typwriter using Reactapp to make a better version ie. no longer using the typewriter class */}
+          <Type />
           </div>
         </center>
       </div>

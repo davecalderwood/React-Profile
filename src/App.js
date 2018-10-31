@@ -10,7 +10,7 @@ class App extends Component {
   
   render() {
     return (
- 
+
       // The router wrappes around the components to house the buttons
       <Router>
         <div className="main-app">
