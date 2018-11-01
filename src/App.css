@@ -3,8 +3,6 @@ body {
     background: url('https://images.unsplash.com/photo-1533229509385-807924881374?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ca173746b34758e6c808a2e22db5f615&auto=format&fit=crop&w=1500&q=80.jpg') top/cover no-repeat;
      /* Credit for this photo goes to unsplash.com, photo by Kal Loftus */
      font-family: 'Courier New', Courier, monospace;
-
-
 }
 /* The main <div> in App.js, the rest fall into this div */
 .main-app {
@@ -32,7 +30,7 @@ body {
     text-decoration: none; color: black;
 }
 /* .navigate exists inside of .right-menu and treats each tag as their own function */
-.navigate {
+.navigate, .navigate2, .navigate3 {
     border: 1px solid black;
     width: 100%;
     height: 33%;
@@ -40,29 +38,7 @@ body {
     vertical-align: center;
     text-decoration: none; color: black;
 }
-.navigate2 {
-    border: 1px solid black;
-    width: 100%;
-    height: 33%;
-    text-align: center;
-    vertical-align: center;
-    text-decoration: none; color: black;
-}
-.navigate3 {
-    border: 1px solid black;
-    width: 100%;
-    height: 33%;
-    text-align: center;
-    vertical-align: center;
-    text-decoration: none; color: black;
-}
-.navigate:hover {
-    transform: scale(1.1)
-}
-.navigate2:hover {
-    transform: scale(1.1)
-}
-.navigate3:hover {
+.navigate:hover, .navigate2:hover, .navigate3:hover {
     transform: scale(1.1)
 }
 p {
@@ -81,7 +57,7 @@ p {
     height: 20%;
 }
 /* Treats each footer-nav product as their own */
-.footer-nav {
+.footer-nav, .footer-nav2, .footer-nav3 {
     border: 1px solid black;
     flex-direction: column;
     width: 100%;
@@ -89,31 +65,7 @@ p {
     padding-top: 0%;
     text-decoration: none; color: black;
 }
-.footer-nav2 {
-    border: 1px solid black;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-    padding-top: 0%;
-    text-decoration: none; color: black;
-}
-.footer-nav3 {
-    border: 1px solid black;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-    padding-top: 0%;
-    text-decoration: none; color: black;
-}
-.footer-nav:hover {
-    opacity: 0.5;
-    filter: alpha(opacity=50);
-}
-.footer-nav2:hover {
-    opacity: 0.5;
-    filter: alpha(opacity=50);
-}
-.footer-nav3:hover {
+.footer-nav:hover, .footer-nav2:hover, .footer-nav3:hover {
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
@@ -166,21 +118,19 @@ p {
 .child {
     font-size: 1em;
 }
-
 a:visited { text-decoration: none; }
-a:hover { transform: scale(1.1) }
+a:hover { transform: scale(1.1); }
 a:focus { text-decoration: none; }
 a:hover, a:active { text-decoration: none; }
 
-
-/* ----------------------- Typing Animations -------------------------- */
-  .typing {
-      overflow: hidden;
-      font-size: 3.5em;
-      font-weight: bold;
-      color: rgb(102, 39, 39);
+/* ----------------------- Typing Animation -------------------------- */
+.typing {
+    overflow: hidden;
+    font-size: 3.5em;
+    font-weight: bold;
+    color: rgb(102, 39, 39);
   }
-/* ----------------------- Bounce Animations -------------------------- */
+/* ----------------------- Bounce Animation -------------------------- */
 .box {
     margin: 0 auto;
     position: relative;

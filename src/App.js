@@ -77,7 +77,7 @@ class App extends Component {
                 className="footer-nav2"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/david-calderwood-ba8b19172/"
+                href="https://www.linkedin.com/in/david-calderwood/"
               >
                 <div>
                   <h3>Linkedin</h3>

@@ -9,6 +9,7 @@ class Profile extends Component {
       <div className="typewriter">
         <center>
           <br />
+          
           {/* Create a link in the photo that links out to my Facebook page */}
           <a
             target="_blank"
@@ -19,6 +20,7 @@ class Profile extends Component {
           </a><br/>
           <div className="typing">
           {/* Updated the typwriter using Reactapp to make a better version ie. no longer using the typewriter class */}
+          
           <Type />
           </div>
         </center>
