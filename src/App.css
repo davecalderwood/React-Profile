@@ -137,11 +137,6 @@ p {
     height: 500px;
     width: 750px;
 }
-.name {
-    font-size: 4em;
-    font-family: monospace;
-    color: rgb(255, 253, 147);
-}
 .about-color {
     color: black;
     text-align: center;
@@ -168,7 +163,6 @@ p {
     box-shadow: 0 5px #666;
     transform: translateY(3px);
 }
-/* blah */
 .child {
     font-size: 1em;
 }
@@ -179,25 +173,9 @@ a:focus { text-decoration: none; }
 a:hover, a:active { text-decoration: none; }
 
 
-/* ----------------------- Animations -------------------------- */
-
-/* .typewriter h1 {
-    display: inline-block;
-  	overflow: hidden;
-  	letter-spacing: 2px;
- 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
-    white-space: nowrap;
-    font-size: 50px;
-    font-weight: 700;
-    box-sizing: border-box;
-  }
-  
-  @keyframes typing {
-    from { width: 0% }
-    to { width: 100% }
-  } */
-
+/* ----------------------- Typing Animations -------------------------- */
   .typing {
+      overflow: hidden;
       font-size: 3.5em;
       font-weight: bold;
       color: rgb(102, 39, 39);
@@ -218,33 +196,10 @@ a:hover, a:active { text-decoration: none; }
     background-color: #34bb2f;
     box-shadow: inset -5px -5px 5px rgba(0,0,0,.9), 15px 15px 2px rgba(0,0,0,.2);
     position: absolute;
-    /* Controls the speed at which the X and Y move */
-    -webkit-animation: moveX 5.2s linear 0s infinite alternate, moveY 4.4s linear 0s infinite alternate;
-    -moz-animation: moveX 5.2s linear 0s infinite alternate, moveY 4.4s linear 0s infinite alternate;
-    -o-animation: moveX 5.2s linear 0s infinite alternate, moveY 4.4s linear 0s infinite alternate;
     animation: moveX 5.2s linear 0s infinite alternate, moveY 4.4s linear 0s infinite alternate;
-  }
-  /* Sets the pixels of how far it is allowed to move along the X and Y axis */
-  @-webkit-keyframes moveX {
-    from { left: 0; } to { left: 550px; }
-  }
-  @-moz-keyframes moveX {
-    from { left: 0; } to { left: 550px; }
-  }
-  @-o-keyframes moveX {
-    from { left: 0; } to { left: 550px; }
   }
   @keyframes moveX {
     from { left: 0; } to { left: 550px; }
-  }
-  @-webkit-keyframes moveY {
-    from { top: 0; } to { top: 350px; }
-  }
-  @-moz-keyframes moveY {
-    from { top: 0; } to { top: 350px; }
-  }
-  @-o-keyframes moveY {
-    from { top: 0; } to { top: 350px; }
   }
   @keyframes moveY {
     from { top: 0; } to { top: 350px; }

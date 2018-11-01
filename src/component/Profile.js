@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Type from './Typing'
+import Type from '../features/Typing'
 
 class Profile extends Component {
   render() {
