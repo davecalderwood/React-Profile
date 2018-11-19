@@ -34,7 +34,7 @@ class Skills extends React.Component {
   <div className='child'>
         <center>
             <h3>Skills</h3>
-            JavaScript, React, HTML, CSS
+            JavaScript, React, React Native, HTML, CSS, Monk, Micro, MicroRouter, MongoDB, API, mLab, GitHub
         </center>
     </div>
   )

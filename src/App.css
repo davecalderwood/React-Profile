@@ -85,10 +85,6 @@ p {
 .Photo1:hover {
     transform: scale(1.1);
 }
-.Photo2 {
-    height: 500px;
-    width: 750px;
-}
 .about-color {
     color: black;
     text-align: center;
@@ -154,4 +150,3 @@ a:hover, a:active { text-decoration: none; }
   @keyframes moveY {
     from { top: 0; } to { top: 350px; }
   }
-  
