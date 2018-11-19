@@ -20,7 +20,7 @@ class Projects extends Component {
           </li>
           <li>
             <h4>Group Project</h4>
-            -- coming soon --
+            Helio Training Collaborative Project - Stars Mobile App -
           </li>
         </ol>
         <Skills />
